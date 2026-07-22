@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://github.com/ArtifexSoftware/ghostpdl/blob/master/doc/src/images/ghostscript-logo.png
 export DESKTOP=DUMMY
 export MAIN_BIN=gs
+export ALWAYS_SOFTWARE=1 # gsx is gtk3
 
 # Deploy dependencies
 quick-sharun \
