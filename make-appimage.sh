@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://github.com/ArtifexSoftware/ghostpdl/blob/master/doc/src/images/ghostscript-logo.png
 export DESKTOP=DUMMY
+export MAIN_BIN=gs
 
 # Deploy dependencies
 quick-sharun \
